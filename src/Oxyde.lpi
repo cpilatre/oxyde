@@ -75,13 +75,14 @@
       <Debugging>
         <GenerateDebugInfo Value="False"/>
       </Debugging>
-      <Options>
-        <Win32>
-          <GraphicApplication Value="True"/>
-        </Win32>
-      </Options>
     </Linking>
     <Other>
+      <Verbosity>
+        <ShowWarn Value="False"/>
+      </Verbosity>
+      <CompilerMessages>
+        <IgnoredMessages idx5092="True" idx5057="True"/>
+      </CompilerMessages>
       <CustomOptions Value="-dBorland -dVer150 -dDelphi7 -dCompiler6_Up -dPUREPASCAL"/>
     </Other>
   </CompilerOptions>

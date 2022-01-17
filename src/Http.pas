@@ -9,7 +9,7 @@ unit Http;
 
 interface
 
-uses Windows, SysUtils, Classes, Stream, Config, Winsock;
+uses Windows, SysUtils, Classes, Stream, Winsock;
 
 const
 {___________________________________  RFC 1945  ___________________________________}
